@@ -64,7 +64,7 @@ def main():
                 if not axvalue:
                     print("No data provided. Please enter some numbers.")
                     continue
-
+                #frequency
                 print("f = ")
                 f = sys.stdin.read()
                 fvalue = [int(num.strip()) for num in f.splitlines() if num.strip()]
